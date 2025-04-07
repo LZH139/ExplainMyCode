@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+button:focus, button:hover, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: transparent !important;
+}

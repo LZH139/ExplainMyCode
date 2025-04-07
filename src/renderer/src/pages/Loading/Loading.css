@@ -1,0 +1,30 @@
+/* 页面容器 */
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;      /* 横向居中 */
+    justify-content: center;  /* 纵向居中 */
+    width: 100vw;
+    height: 100vh;
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 0 20px; /* 确保容器内容不会被边缘遮挡 */
+}
+
+/* 缩小版的进度条外框 */
+.progress-bar {
+    width: 40%; /* 调整进度条宽度，缩小进度条 */
+    height: 8px; /* 缩小进度条高度 */
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    margin-bottom: 10px; /* 适当减少下边距 */
+}
+
+/* 进度条的实际进度 */
+.progress {
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 10px;
+}

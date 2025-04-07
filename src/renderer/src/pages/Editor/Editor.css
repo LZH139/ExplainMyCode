@@ -1,0 +1,22 @@
+/* Editor.css */
+.editor-container {
+    display: flex;
+    height: 100vh;
+}
+
+.file-tree-wrapper {
+    width: 300px;
+    flex-shrink: 0;
+    overflow: auto;
+    border-right: 1px solid #ddd;
+}
+
+.editor-content {
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.editor-placeholder {
+    padding: 20px;
+    color: #666;
+}
